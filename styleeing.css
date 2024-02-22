@@ -1,0 +1,45 @@
+button{
+    padding: 20px;
+    width: 80px;
+    border: solid black;
+    margin: 2px;
+    border-radius: 10px;
+    color:red;
+    background-color: greenyellow;
+    cursor: pointer;
+    font-size: 30px;
+    
+}
+.maindiv,h1{
+
+    text-align: center;
+    background-color: 
+    /* display: flex;
+    justify-content:; */
+
+
+}
+input{
+    width: 350px;
+    height: 60px;
+    border: solid;
+    border-radius: 10px;
+    font-size: 50px;
+    background-color: greenyellow;
+    color: red;
+
+}
+body{
+    background-image: url(./baground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: yellow;
+    font-size: 45px;
+    font-family: cursive;
+    font-weight: 100px;
+    padding-bottom: 0px;
+    
+}
+ 

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<button id="genotpbtn">click for otp</button>
+<input type="text"  id="otpDisply">
+
+
+    <script>
+        let genotp=()=>{
+            const otplength=6;
+            const otp=Math.floor(100000+Math.random*900000);
+            document.getElementById("otpDisply").inntext='${otp}';
+        };
+        document.getElementById("genotpbtn")
+  .addEventListener("click",genotp);
+  window.addEventListener("load",genotp);
+  
+  
+  </script>
+</body>
+</html>
